@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The HTML5 Herald</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+    <header>
+        <div class="top-menu row">
+
+            <div class="col"></div>
+            <div id='accmenu' class="col-4">
+                <!--<div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button">
+                      Account Menu
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Profile</a>
+                      <a href="#">Settings</a>
+                    </div>
+                </div>-->
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Account Menu
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                      <a class="dropdown-item" href="#">Profile</a>
+                      <a class="dropdown-item" href="#">Settings</a>
+                    </div>
+                  </div>
+                <button class="btn btn-secondary">
+                    Create an account
+                </button>
+
+
+                <!--<ul class="list-group list-group-horizontal">
+                    <li class="list-group-item">
+                        Account Menu
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item"><a href='#'>Profile</a></li>
+                            <li class="list-group-item"><a href='#'>Settings</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a href='#'>Create an account</a>
+                    </li>
+                </ul>-->
+            </div>
+        </div>
+        <div class="logo-bar row">
+            <div class="col-3">
+                <input type="text" name="searchbar" id="searchbar" placeholder="Searchbar">
+            </div>
+            <div class="col center-content">
+
+            </div>
+            <div class="col-3 center-content">
+                <a href='#'><img class="icon" src="cart.png"></img></a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="d-flex">
+            <ul class="list-group list-group-horizontal mx-auto">
+                <li class="list-group-item"><a href='#'>Singapore Zoo</a></li>
+                <li class="list-group-item"><a href='#'>Facilities</a></li>
+                <li class="list-group-item"><a href='#'>Restaurant</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="center-content">
+        <img class="banner"" src="Singapore Zoo.jpg"></img>
+    </div>
+
+    <div class="mainbody center-content">
+        <h1>Animals</h1>
+        <table class="table cart-table" id="myTable">
+        <tr> <th>Image</th>
+        <th>Name</th>
+        <th>Distance from Entrance</th>
+            </tr>
+        <tr id="sweetRow">
+        <td><img src="Panda.jpg"></img></td>
+        <td>Panda</td>
+        <td>200 m</td>
+
+        <tr id="cakeRow">
+        <td><img src="elephant.jpg"></img></td>
+        <td>Elephant</td>
+        <td>300 m</td>
+        </tr>
+
+        <tr id="cakeRow">
+        <td><img src="lamb.gif"></img></td>
+        <td>Lamb</td>
+        <td>50 m</td>
+        </tr>
+
+    </table>
+
+<footer class="center-content">
+    <p>Pictures from <a href="https://github.com/john-smilga/js-cart-setup" title="js cart setup">https://github.com/john-smilga/js-cart-setup</a></p>
+    </footer>
+</div>
+<script src="./MainPage.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
